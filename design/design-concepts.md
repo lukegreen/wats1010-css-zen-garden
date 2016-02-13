@@ -12,10 +12,13 @@ My goal is to provide the reader with a comfortable and meditative browsing expe
 Inspiration
 
 <a href="http://csszengarden.com/221/">mid century modern</a>
+
 This is the top design on CSS zen garden.  Love the color palate, broad areas of color without borders, modernist design sensibilities.  
 
 <a href="http://www.awwwards.com/web-design-awards/admir-hadzic-portfolio-3"> Admir Hadzic</a>
+
 I love the openess of this design.  Gives me the feeling of being outdoors.
 
 <a href="http://www.awwwards.com/web-design-awards/shape-christmas">Shape Christmas</a>
+
 Like the first site, I like the distinct color areas and rectilinear "section-ness" of this design.Like
