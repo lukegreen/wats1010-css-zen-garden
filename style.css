@@ -1,5 +1,13 @@
+/*webfonts*/
 @import url(https://fonts.googleapis.com/css?family=Questrial|Julius+Sans+One);
 
+/*animations*/
+@keyframes test-animation {
+	0% {color: #7F6A68;}
+	100% {color: white;}
+}
+
+/*general formatting and layout*/
 body {
 	font-family: 'Questrial', sans-serif;
 	background-color: #BF9F9C;
@@ -13,6 +21,10 @@ body {
 a {
 	text-decoration: none;
 	color: lightgray;
+}
+
+a:hover {
+	color: white;
 }
 
 li {
@@ -35,13 +47,14 @@ header h2 {
 	font-family: 'Julius Sans One', sans-serif;
 	font-weight: 100;
 	font-size: 22pt;
+	animation: test-animation 4s;
 }
 
 .summary a {
 	display: block;
 	position: absolute;
 	margin-left: -300px;
-	margin-top: -200px;
+	margin-top: -400px;
 	padding: 20px;
 	font-size: 20px;
 	border: 1px solid black;
@@ -50,8 +63,12 @@ header h2 {
 	height: 40px;
 }
 
+#zen-supporting a:hover {
+	color: #BF9F9C;
+}
+
 .summary a[href="/examples/style.css"] {
-	margin-top: -100px;
+	margin-top: -300px;
 }
 
 .summary p:last-child {
@@ -70,6 +87,8 @@ section, #zen-supporting {
 	margin-top: -40px;
 }
 
+/*side menus*/
+
 aside {
 	float: right;
 	position: relative;
@@ -86,6 +105,10 @@ aside div.wrapper {
 	margin-top: 300px;
 }
 
+.design-selection {
+	font-size: 18pt;
+}
+
 .next {
 	display: inline-block;
 	background-image: url(glyphicons-174-play.png);
@@ -94,8 +117,9 @@ aside div.wrapper {
   white-space: nowrap;
   overflow: hidden;
 	width: 18px;
-	margin-left: 60px;
-	margin-right: 30px;
+	margin-left: 100px;
+	margin-right: -30px  ;
+	margin-top: 20px;
 }
 
 .viewall {
@@ -106,6 +130,26 @@ aside div.wrapper {
     white-space: nowrap;
     overflow: hidden;
     width: 18px;
-	  margin-left: 30px;
-	  margin-right: 30px; 
+	  margin-left: 90px;
+	  margin-right: -50px;
+	  margin-top: 20px;
+}
+
+.zen-resources {
+	float: left;
+	position: absolute;
+	margin-left: -950px;
+	margin-top: -250px;
+	font-size: 18pt;
+}
+
+/*footer*/
+
+footer {
+	margin: auto;
+	width: 300px;
+}
+
+footer a {
+	margin-left: 20px;
 }
