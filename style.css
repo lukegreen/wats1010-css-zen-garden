@@ -14,6 +14,19 @@ body {
 	line-height: 140%;
 }
 
+body::after {
+  content: "";
+  background: url(sakura.png);
+	background-repeat: repeat-y;
+  opacity: 0.2;
+	top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 .page-wrapper {
 	position: relative;
 }
@@ -47,7 +60,7 @@ header h2 {
 	font-family: 'Julius Sans One', sans-serif;
 	font-weight: 100;
 	font-size: 22pt;
-	animation: test-animation 4s;
+	animation: test-animation 5s;
 }
 
 .summary a {
@@ -138,7 +151,7 @@ aside div.wrapper {
 .zen-resources {
 	float: left;
 	position: absolute;
-	margin-left: -950px;
+	margin-left: -1150px;
 	margin-top: -250px;
 	font-size: 18pt;
 }
